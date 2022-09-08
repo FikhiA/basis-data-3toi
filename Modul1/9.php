@@ -25,4 +25,8 @@ for($i = 0; $i < 5; $i++) {
     echo ($i != 4) ? ($sort_desc[$i] . ", ") : ($sort_desc[$i] . ".</h1>");
 }
 
+echo '
+    <button onclick="location.reload();">Random lagi!</button>
+';
+
 ?> 
